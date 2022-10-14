@@ -1,5 +1,13 @@
+// variaveis --paleta de cores
+$c-lilas: rgb(215, 177, 251);
+$c-background: rgb(127, 86, 165);
+$c-button-active: rgb(124, 66, 178);
+$c-claro: rgb(176, 93, 254);
+$c-escuro: rgb(79, 24, 131);
+
+
 body{
-    background-color: rgb(127, 86, 165);
+    background-color: $c-background;
     height: 100%;
     font-family: "Poppins", sans-serif;
 }
@@ -21,7 +29,7 @@ section{
 }
 
 .content{
-    background-color: rgb(215, 177, 251);
+    background-color: $c-lilas;
     height: 100%;
     margin: 30px 0;
     border-radius: 5px;
@@ -34,10 +42,10 @@ button{
     cursor: pointer;
 }
 .primeiro{
-    background-color: rgb(176, 93, 254);
+    background-color: $c-claro;
 }
 .segundo{
-    background-color: rgb(79, 24, 131);
+    background-color: $c-escuro;
     color: white;
 }
 
@@ -47,5 +55,6 @@ input{
     border-radius: 5px;
 }
 section button:hover{
-    background:rgb(124, 66, 178);
+    background:$c-button-active;
+    color: yellow;
 }
