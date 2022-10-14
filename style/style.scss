@@ -9,7 +9,10 @@ $c-escuro: rgb(79, 24, 131);
 body{
     background-color: $c-background;
     height: 100%;
+    margin: 40px 30px;
+    box-sizing: border-box;
     font-family: "Poppins", sans-serif;
+
 }
 
 section{
@@ -57,4 +60,23 @@ input{
 section button:hover{
     background:$c-button-active;
     color: yellow;
+}
+
+// responsividade
+@media (max-width: 960px){
+    
+}
+
+@media (max-width: 620px) {
+    body{
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    .principal-img{
+        width: 500px;
+    }
+    // .content{
+    //     width: 80%;
+    // }
+    
 }

@@ -1,6 +1,8 @@
 body {
   background-color: rgb(127, 86, 165);
   height: 100%;
+  margin: 40px 30px;
+  box-sizing: border-box;
   font-family: "Poppins", sans-serif;
 }
 
@@ -52,4 +54,14 @@ input {
 section button:hover {
   background: rgb(124, 66, 178);
   color: yellow;
+}
+
+@media (max-width: 620px) {
+  body {
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  .principal-img {
+    width: 500px;
+  }
 }/*# sourceMappingURL=style.css.map */
