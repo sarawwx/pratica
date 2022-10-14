@@ -1,0 +1,54 @@
+body {
+  background-color: rgb(127, 86, 165);
+  height: 100%;
+  font-family: "Poppins", sans-serif;
+}
+
+section {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+}
+
+.principal-img {
+  width: 600px;
+  height: 400px;
+  border-radius: 10px;
+}
+
+.titulo {
+  padding-left: 8px;
+}
+
+.content {
+  background-color: rgb(215, 177, 251);
+  height: 100%;
+  margin: 30px 0;
+  border-radius: 5px;
+}
+
+button {
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
+
+.primeiro {
+  background-color: rgb(176, 93, 254);
+}
+
+.segundo {
+  background-color: rgb(79, 24, 131);
+  color: white;
+}
+
+input {
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+section button:hover {
+  background: rgb(124, 66, 178);
+}/*# sourceMappingURL=style.css.map */
