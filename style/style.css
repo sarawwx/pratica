@@ -59,9 +59,17 @@ section button:hover {
 @media (max-width: 620px) {
   body {
     flex-direction: column;
-    flex-wrap: wrap;
   }
   .principal-img {
     width: 500px;
+  }
+}
+@media (max-width: 520px) {
+  body {
+    margin: 0px 10px;
+  }
+  .principal-img {
+    margin-top: 10px;
+    width: 350px;
   }
 }/*# sourceMappingURL=style.css.map */
